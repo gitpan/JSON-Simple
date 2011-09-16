@@ -1,0 +1,38 @@
+JSON-Simple version 0.01
+========================
+
+JSON (JavaScript Object Notation, http://www.json.org) is a simple to use
+format for data exchange, and actually a subset of JavaScript.
+JSON::Simple is a module that allows easy production of valid JSON from
+complex Perl data structures, and easy parsing of JSON into such data
+structures.
+
+I started writing it out of personal discontent with the interfaces of
+existing JSON modules, but also as an exercise and to see if I could do it.
+
+Version 0.01 of this module works well, but it's Unicode handling
+capabilities are somewhat lacking, so that's an area that needs some more
+work.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+None noteworthy.
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2011 by P. Ramakers
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.12.0 or,
+at your option, any later version of Perl 5 you may have available.
+
+
